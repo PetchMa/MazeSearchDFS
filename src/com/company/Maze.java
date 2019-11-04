@@ -11,6 +11,13 @@ Process – Holds the properties of the maze within the class
 =================================================================
 List of Identifiers - will be listed in each file.
 =================================================================
+        Let Map be a 8x12 char array to store the maze environment <type char [][]>
+        Let visited be a 8x12 boolean array to store the places the mouse has visited <type boolean [][]>
+        Let route be a 8x12 int array that stores the path to the cheese <type int [][]>
+        Let ExitRoute be a 8x12 array that stores the path to the exist from the cheese <type int [][]>
+        Let Start be a point within the maze for the mouse to start <type Place>
+        Let cheese be a point within the maze that represents the cheese <type Place>
+        Let Exit be a point within the maze that represents the exit <type Place>
 */
 package com.company;
 
