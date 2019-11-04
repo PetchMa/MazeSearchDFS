@@ -30,17 +30,17 @@ public class Main {
      * Output - the solution path with a map for each.
      *
      * List of local variables
-     * @param - maze <type Maze>
-     * @param - mouse <type Mouse>
-     * @param - flag <type boolean>
+     * maze - holds the maze object <type Maze>
+     * mouse - executes the pathfinding logic <type Mouse>
+     * flag - flag used for try and catch <type boolean>
      *
-     * @param - startTime <type long>
-     * @param - endTime <type long>
-     * @param - solution <type arraylist>
-     * @param - exit <type arraylist>
-     * @param - t <type int>
-     * @param - r <type int>
-     * @param - none
+     * startTime - used to test runtime <type long>
+     * endTime - used to test runtime <type long>
+     * solution -  used to hold solution path to cheese<type arraylist>
+     * exit - used to hold solution path to exit <type arraylist>
+     * t - rows for the array <type int>
+     * r - columns for array <type int>
+     * @param - String[]args
      * @return  none
      */
     public static void main(String[] args)throws IOException {
