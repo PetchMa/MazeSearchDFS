@@ -11,6 +11,8 @@ Process – simply gets and sets the values of the x and y coordinate
 =================================================================
 List of Identifiers - will be listed in each file.
 =================================================================
+    Let x be the row value for the position  <type int>
+    let Y be the column value for the position <type int>
 */
 package com.company;
 public class Place {
