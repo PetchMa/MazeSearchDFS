@@ -13,6 +13,8 @@ Process – Runs a DFS and search every path from starting node and numbers the 
 =================================================================
 List of Identifiers - will be listed in each file.
 =================================================================
+    Let StartX hold the value of row value for the start position <type int>
+    Let StartY hold the value of column value for the start position <type int>
 */
 package com.company;
 
