@@ -64,6 +64,8 @@ public class Maze {
      * line - this is a variable that holds the value of each line read <type String>
      * row - the row thats read <type int>
      * count - the column thats read <type int>
+     * @param - none
+     * @throws - IOException
      * @return  - map <type char[][]>
      */
     public static char[][] readMAZE(char[][] map) throws IOException {
@@ -92,6 +94,8 @@ public class Maze {
      * line - this is a variable that holds the value of each line read <type String>
      * row - the row thats read <type int>
      * count - the column thats read <type int>
+     * @param - none
+     * @throws - IOException
      * @return  - none
      */
     public void resetMap() throws IOException {
