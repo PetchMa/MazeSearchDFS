@@ -51,7 +51,7 @@ public class Main {
         System.out.println("WELCOME TO THE GAME!!!");
         System.out.println("Here is your board");
         maze.printMap();
-        System.out.println("Where do you wan the mouse to start?");
+        System.out.println("Where do you want the mouse to start?");
         while(flag)
         try{
             System.out.println("Type the ROW value");
